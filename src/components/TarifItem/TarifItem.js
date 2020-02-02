@@ -3,7 +3,7 @@ import React from 'react'
 
 function TarifItem({tarrifs}){
 
-	 const socialIcons = <div>{tarrifs.socialMedia.map(o => <img src={o} className="icons"/> )}</div>;
+	 const socialIcons = <div>{tarrifs.socialMedia.map(o => <img src={o} alt="ScialIcons" className="icons"/> )}</div>;
 
 	return(
 		<>
@@ -20,7 +20,7 @@ function TarifItem({tarrifs}){
 				</div>
 			</div>
 			
-			{tarrifs.hit && <img src={tarrifs.hitUrl} className="socialMedia" />}
+			{tarrifs.hit && <img src={tarrifs.hitUrl} alt="hitPic" className="socialMedia" />}
 			<div className="roaming">{tarrifs.roaming}</div>
 		</div>
 			
