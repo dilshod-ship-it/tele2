@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7348342f88318bf4c158fbda640e3520",
+    "revision": "205edaacfb2c6b83652e810aef699c96",
     "url": "/tele2/index.html"
   },
   {
-    "revision": "1c71750cfb145c2e5d54",
+    "revision": "a43302d8d155d6291959",
     "url": "/tele2/static/css/main.3a580fa9.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tele2/static/js/2.0bfd1891.chunk.js.LICENSE"
   },
   {
-    "revision": "1c71750cfb145c2e5d54",
-    "url": "/tele2/static/js/main.97d96d9a.chunk.js"
+    "revision": "a43302d8d155d6291959",
+    "url": "/tele2/static/js/main.a0fcb8a6.chunk.js"
   },
   {
     "revision": "1289a868035832ca9be3",
