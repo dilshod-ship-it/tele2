@@ -1,7 +1,7 @@
 import React from 'react'
-import TarifItem from '../TarifItem/TarifItem'
+import TariffItem from '../TariffItem/TariffItem'
 
-export default function TarifList() {
+export default function TariffList() {
 		const tarifs = [
 		   {id: 1, title: "Везде онлайн", price: 500, moneyPrice: '₽', monthPrice: '/месяц', hit: true, hitUrl: 'http://turegion.ru/wp-content/uploads/2018/10/4abcbbdcbf4c980d229c7f7335.png', traffik: 40, traffikName: 'ГБ', social: '+безлимитные', 
 		   																																		  socialMedia: ['https://msk.tele2.ru/api/media/asset?mediaId=m220005',
@@ -116,7 +116,7 @@ export default function TarifList() {
 		<>
 		 <div className="tarifs">Тарифы</div>
 		 <div>
-		 {tarifs.map(o => <TarifItem tarrifs={o} />)}
+		 {tarifs.map(o => <TariffItem tarrif={o} />)}
 		 </div>
 		 </>
 		)

@@ -1,10 +1,10 @@
 import React from 'react'
-import TarifList from './components/TarifList/TarifList'
+import TariffList from './components/TariffList/TariffList'
 
 export default function App() {
 	return (
 		<div>
-		  <TarifList />
+		  <TariffList />
 		</div>
 		)
 }
