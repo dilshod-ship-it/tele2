@@ -116,7 +116,7 @@ export default function TariffList() {
 		<>
 		 <div className="tarifs">Тарифы</div>
 		 <div>
-		 {tarifs.map(o => <TariffItem tarrif={o} />)}
+		 {tarifs.map(t => <TariffItem tarrif={t} />)}
 		 </div>
 		 </>
 		)
